@@ -1,0 +1,39 @@
+
+body{
+    background-image:linear-gradient(lightgrey,navy);
+    background-repeat: no-repeat ;
+    height: 100vh;
+    background-size: 100% 1000px;
+    background-image: 100%;
+
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+.register{
+    color: navy;
+    margin-top:20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+}
+.reg{
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 15px;
+}
+.required:after {
+    content:" *";
+    color: red;
+
+}
+.form-control{
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
+}
