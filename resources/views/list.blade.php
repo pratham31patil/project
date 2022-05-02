@@ -74,8 +74,8 @@ h1{
           <td>{{$user['Email']}}</td>
           <td>{{$user['Title']}}</td>
           <td>{{$user['Description']}}</td>
-          <td><a href="{{ asset('ppt_files/'.$user->ppt) }} ">Project PPT</td>
-          <td><a href="{{ asset('word_files/'.$user->word) }} ">Project Report </td>
+          <td><a href="{{ asset('file/'.$user->ppt) }} ">Project PPT</td>
+          <td><a href="{{ asset('file/'.$user->word) }} ">Project Report </td>
           <td><a href="{{$user['url']}}">Github URL</td>
       </tr>
       @endforeach
